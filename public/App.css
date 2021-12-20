@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+}
+.navbar {
+  background-color: #20232a;
+  height: 70px;
+}
+.start-button {
+  background-color: #20232a;
+  border: 3px solid transparent;
+  color: white;
+  font-size: 24px;
+  margin-left: 500px;
+  margin-top: -10px;
+  padding: 10px 20px 10px 20px;
+}
+.read-button {
+  background-color: #20232a;
+  border: 3px solid transparent;
+  color: white;
+  font-size: 24px;
+  margin-left: 600px;
+  margin-top: -10px;
+  padding: 10px 20px 10px 20px;
+}
+.start-button:hover {
+  border: 3px solid white;
+  transition: 0.5s;
+}
+.read-button:hover {
+  border: 3px solid white;
+  transition: 0.5s;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding-top: 17px;
+}
+.about {
+  height: 500px;
+  background-color: #282c34;
+  color: white;
+}
+.about-container {
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+  padding-top: 100px;
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #61dafb;
+  font-family: "Lexend";
+  letter-spacing: 5px;
+}
+h2 {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 30px;
+  font-family: "Lexend";
+}
+.about-start-button {
+  background-color: #61dafb;
+  border: 7px solid transparent;
+  color: black;
+  font-size: 30px;
+  margin-left: 400px;
+  margin-top: 70px;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  letter-spacing: 3px;
+}
+h3 {
+  font-family: "Lexend";
+}
+.about-start-button:hover {
+  border: 7px solid white;
+  transition: 0.5s;
+}
+.main {
+  height: 1500px;
+}
+.main-content {
+  width: 1400px;
+  margin: auto;
+  margin-top: 50px;
+}
+.individual-main {
+  width: 1400px;
+  height: 500px;
+
+  margin-top: 100px;
+}
+img {
+  height: 500px;
+  width: 600px;
+  display: inline-block;
+  border: 1px solid black;
+}
+img:hover {
+  cursor: pointer;
+}
+.individual-text {
+  position: relative;
+  left: 630px;
+  bottom: 490px;
+  max-width: 800px;
+}
+.individual-text-header {
+  font-size: 54px;
+}
+.individual-text-para {
+  font-size: 30px;
+  width: 700px;
+  text-align: justify;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.algo-div {
+  background-color: #61dafb;
+  width: 20px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 2px solid black;
+}
+.el-container {
+  height: 600px;
+  width: 1800px;
+  margin-top: 227px;
+  margin-left: 35px;
+}
+.a {
+  background-color: #282c34;
+}
+.btn-container {
+  margin-left: 115px;
+  padding-top: 100px;
+}
+.sort-btn {
+  color: black;
+  background-color: white;
+  border: 3px solid transparent;
+  font-size: 32px;
+  padding: 0 10px 0 10px;
+}
+.mainElement {
+  background-color: #282c34;
+}
+input {
+  margin-left: 100px;
+  -webkit-appearance: none;
+  width: 10%;
+  height: 10px;
+  outline: none;
+  border-radius: 3px;
+  display: inline;
+}
+.rightfloat {
+  float: rgiht;
+}
